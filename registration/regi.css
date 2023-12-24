@@ -1,0 +1,167 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fbf9e8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: calc();
+    height: 100vh;
+
+}
+
+.headersection {
+
+    background-color: #3498db;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #3498db;
+    text-align: center;
+    color: #ffffff;
+    transition: background 0.5s ease-in-out;
+    width: 117.5%;
+    margin: auto;
+}
+
+.headersection h1 {
+    font-size: 3em;
+}
+
+.headersection h3 {
+    color: #ffffff;
+    font-family: cursive;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.bodysection {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #3498db;
+    text-align: center;
+    transition: background 0.5s ease-in-out;
+    width: 110%;
+    margin: auto;
+}
+
+.bodysection h3 {
+    font-size: 2em;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #3498db;
+    border-radius: 25px;
+    color: #333;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form input:focus {
+    border-color: #2980b9;
+}
+
+.image {
+    border: 2px solid #3498db;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.image h2 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: #ffffff;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #2e86c1, #2075d1);
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+
+.input {
+    padding: 12px;
+    border-radius: 25px;
+}
+
+.dropbox {
+    padding: 10px;
+    border-radius: 25px;
+    width: 14%;
+}
+
+.dropbox1 {
+    padding: 10px;
+    border-radius: 25px;
+    width: 18%;
+}
+
+.btn, .backbtn, .logbtn, .votebtn, .voted {
+    padding: 14px 24px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.btn, .logbtn, .backbtn, .votebtn {
+    background-color: #3498db;
+    color: white;
+}
+
+.backbtn, .logbtn {
+    float: right;
+    margin: 20px 10px;
+}
+
+.votebtn {
+    float: left;
+    margin-top: 20px;
+}
+
+.voted {
+    background-color: green;
+}
+
+.profile, .group {
+    background-color: white;
+    padding: 30px;
+    float: left;
+}
+
+.mainpanel {
+    padding: 20px;
+}

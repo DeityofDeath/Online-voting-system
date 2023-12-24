@@ -1,0 +1,165 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbf9e8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+
+.containerline {
+    background: linear-gradient(#fbf9e8);
+    padding: 20px;
+    box-shadow: 5px 5px 15px lightblue;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.user-details {
+    text-align: left;
+}
+
+.username {
+    margin: 0;
+    font-size: 20px;
+}
+
+.email {
+    margin: 5px 0;
+    color: #666;
+}
+
+
+.vote-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.vote-button:hover {
+    background-color: #45a049;
+}
+
+.elections {
+    text-align: left;
+}
+
+h2 {
+    color: #3498db;
+}
+
+.election-list {
+    list-style: none;
+    padding: 0;
+}
+
+.election-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.election-card:hover {
+    transform: scale(1.02);
+}
+
+.election-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.election-date {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.btn-vote {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-vote:hover {
+    background-color: #2075d1;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}

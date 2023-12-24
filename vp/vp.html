@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vp.css">
+    <title>Online Voting - Cast Your Vote</title>
+</head>
+<body>
+    <header>
+        <h1>Online Voting System</h1>
+    </header>
+    <main>
+        <section id="voting-section">
+            <h1 class="main-heading">Student Election</h1>
+            <h2>Cast Your Vote</h2>
+            <form id="voting-form" action="../api/submit_vote.php" method="post" enctype="multipart/form-data">
+                <div class="candidate" onclick="toggleCandidateDetails(this)">
+                    <label>
+                        <input type="radio" name="vote" value="1">
+                        <div class="candidate-info">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN9NVBIOk_blWPFbW7lJfwX3FNO6jMIsDdZg&usqp=CAU" alt="Candidate 1">
+                            <div class="candidate-details">
+                                <h3>Candidate 1</h3>
+                                <div class="details-content">
+                                    <p><strong>Experience:</strong> 10 years</p>
+                                    <p><strong>Description:</strong> A dedicated leader committed to...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <div class="candidate" onclick="toggleCandidateDetails(this)">
+                    <label>
+                        <input type="radio" name="vote" value="2">
+                        <div class="candidate-info">
+                            <img src="https://www.wpp.com/-/media/project/wpp/images/news/lindsey-pattison_october-2023_hero.jpg?width=900&height=506" alt="Candidate 2">
+                            <div class="candidate-details">
+                                <h3>Candidate 2</h3>
+                                <div class="details-content">
+                                    <p><strong>Experience:</strong> 8 years</p>
+                                    <p><strong>Description:</strong> An innovative thinker with a passion for...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <div class="candidate" onclick="toggleCandidateDetails(this)">
+                    <label>
+                        <input type="radio" name="vote" value="3">
+                        <div class="candidate-info">
+                            <img src="https://d2v9ipibika81v.cloudfront.net/uploads/sites/271/Africa-2.png" alt="Candidate 3">
+                            <div class="candidate-details">
+                                <h3>Candidate 3</h3>
+                                <div class="details-content">
+                                    <p><strong>Experience:</strong> X years</p>
+                                    <p><strong>Description:</strong> Brief description about Candidate 3...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <div>
+                <label id="candidate-number-label" for="candidate-number-input">Enter Candidate Number:</label>
+                <input type="text" id="candidate-number-input" name="candidate_number" required>
+                </div>
+                <br>
+                <button type="submit" id="submit-vote-btn" onclick="submitVote()">Submit Vote</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Online Voting System. All rights reserved.</p>
+    </footer>
+
+    <script src="./vp.js"></script>
+</body>
+</html>

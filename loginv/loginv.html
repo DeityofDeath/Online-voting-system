@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./loginv.css">
+    <title>Voter Login</title>
+</head>
+<body>
+    
+    <div class="login-container">
+        <h1>Voter Login</h1>
+        <form action="../api/login.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><a href="./2.html">Forgot Password</a>
+            <br><br>
+            <button type="submit">Login</button>
+            <br><br>Are you an Admin? <a href="../logina/logina.html">Login Here</a>
+            <br><br>Not Registered Yet? <a href="../registration/regi.html">Register</a>
+        </form>
+    </div>
+    <script src="./loginv.js"></script>
+</body>
+</html>

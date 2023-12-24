@@ -1,0 +1,164 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbf9e8;body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #007BFF;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    header h1 {
+        margin: 0;
+    }
+    
+    header p {
+        margin: 10px 0 0;
+    }
+    
+    main {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    #results-chart-container {
+        background-color: #acdeff;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    #results-chart {
+        height: 400px;
+    }
+    
+    #candidate-results {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .candidate {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        flex: 1 1 300px;
+        margin: 0 10px 20px;
+    }
+    
+    .vote-info {
+        margin-top: 20px;
+    }
+    
+    #download-results {
+        display: inline-block;
+        background-color: #3498db;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        border-radius: 5px;
+        transition: background 0.3s ease-in-out;
+    }
+    
+    footer {
+        padding: 20px;
+        background-color: #007BFF;
+        color: white;
+        text-align: center;
+    }
+    .back-to-home {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s ease-in-out;
+    }
+    
+    .back-to-home:hover {
+        background-color: #2075d1;
+    }
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+#results-chart-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(53, 136, 214, 0.1);
+    margin-bottom: 20px;
+}
+
+#results-chart {
+    height: 200px;
+}
+
+#candidate-results {
+    display: flex;
+    justify-content: space-around;
+}
+
+.candidate {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(53, 136, 214, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 20px; 
+}
+
+.vote-info {
+    margin-top: 20px;
+}
+
+#download-results {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+}

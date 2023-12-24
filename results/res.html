@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./res.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Election Results</title>
+</head>
+
+<body>
+    <header>
+        <h1>Election Results</h1>
+        <p>December 10, 2023</p>
+    </header>
+
+    <main>
+
+        <section id="results-chart-container">
+            <canvas id="results-chart" width="800" height="500"></canvas>
+        </section>
+
+        <section id="candidate-results">
+            <div class="candidate">
+                <h3>Candidate 1</h3>
+                <div class="vote-info">
+                    <p>Vote Share: 35%</p>
+                    <p>Total Votes: 350</p>
+                </div>
+            </div>
+
+            <div class="candidate">
+                <h3>Candidate 2</h3>
+                <div class="vote-info">
+                    <p>Vote Share: 45%</p>
+                    <p>Total Votes: 450</p>
+                </div>
+            </div>
+
+            <div class="candidate">
+                <h3>Candidate 3</h3>
+                <div class="vote-info">
+                    <p>Vote Share: 30%</p>
+                    <p>Total Votes: 300</p>
+                </div>
+            </div>
+        </section>
+
+        <a href="#" id="download-results">Download Results Report</a>
+        <br>
+        <a href="../home/home.html" class="back-to-home">Back to Home</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Online Voting System. All rights reserved.</p>
+    </footer>
+
+    <script src="./res.js"></script>
+</body>
+
+</html>
